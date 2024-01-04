@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41250BEA2B47650D001EA446 /* SwiftUI_PrayerTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41250BE92B47650D001EA446 /* SwiftUI_PrayerTimeApp.swift */; };
+		41250BEC2B47650D001EA446 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41250BEB2B47650D001EA446 /* ContentView.swift */; };
+		41250BEE2B47650F001EA446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41250BED2B47650F001EA446 /* Assets.xcassets */; };
+		41250BF12B47650F001EA446 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41250BF02B47650F001EA446 /* Preview Assets.xcassets */; };
+		41250BFB2B47650F001EA446 /* SwiftUI_PrayerTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41250BFA2B47650F001EA446 /* SwiftUI_PrayerTimeTests.swift */; };
+		41250C052B47650F001EA446 /* SwiftUI_PrayerTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41250C042B47650F001EA446 /* SwiftUI_PrayerTimeUITests.swift */; };
+		41250C072B47650F001EA446 /* SwiftUI_PrayerTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41250C062B47650F001EA446 /* SwiftUI_PrayerTimeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41250BF72B47650F001EA446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41250BDE2B47650D001EA446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41250BE52B47650D001EA446;
+			remoteInfo = "SwiftUI-PrayerTime";
+		};
+		41250C012B47650F001EA446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41250BDE2B47650D001EA446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41250BE52B47650D001EA446;
+			remoteInfo = "SwiftUI-PrayerTime";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41250BE62B47650D001EA446 /* SwiftUI-PrayerTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-PrayerTime.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41250BE92B47650D001EA446 /* SwiftUI_PrayerTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PrayerTimeApp.swift; sourceTree = "<group>"; };
+		41250BEB2B47650D001EA446 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41250BED2B47650F001EA446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41250BF02B47650F001EA446 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41250BF62B47650F001EA446 /* SwiftUI-PrayerTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-PrayerTimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41250BFA2B47650F001EA446 /* SwiftUI_PrayerTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PrayerTimeTests.swift; sourceTree = "<group>"; };
+		41250C002B47650F001EA446 /* SwiftUI-PrayerTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-PrayerTimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41250C042B47650F001EA446 /* SwiftUI_PrayerTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PrayerTimeUITests.swift; sourceTree = "<group>"; };
+		41250C062B47650F001EA446 /* SwiftUI_PrayerTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PrayerTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41250BE32B47650D001EA446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41250BF32B47650F001EA446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41250BFD2B47650F001EA446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41250BDD2B47650D001EA446 = {
+			isa = PBXGroup;
+			children = (
+				41250BE82B47650D001EA446 /* SwiftUI-PrayerTime */,
+				41250BF92B47650F001EA446 /* SwiftUI-PrayerTimeTests */,
+				41250C032B47650F001EA446 /* SwiftUI-PrayerTimeUITests */,
+				41250BE72B47650D001EA446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41250BE72B47650D001EA446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41250BE62B47650D001EA446 /* SwiftUI-PrayerTime.app */,
+				41250BF62B47650F001EA446 /* SwiftUI-PrayerTimeTests.xctest */,
+				41250C002B47650F001EA446 /* SwiftUI-PrayerTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41250BE82B47650D001EA446 /* SwiftUI-PrayerTime */ = {
+			isa = PBXGroup;
+			children = (
+				41250BE92B47650D001EA446 /* SwiftUI_PrayerTimeApp.swift */,
+				41250BEB2B47650D001EA446 /* ContentView.swift */,
+				41250BED2B47650F001EA446 /* Assets.xcassets */,
+				41250BEF2B47650F001EA446 /* Preview Content */,
+			);
+			path = "SwiftUI-PrayerTime";
+			sourceTree = "<group>";
+		};
+		41250BEF2B47650F001EA446 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41250BF02B47650F001EA446 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41250BF92B47650F001EA446 /* SwiftUI-PrayerTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				41250BFA2B47650F001EA446 /* SwiftUI_PrayerTimeTests.swift */,
+			);
+			path = "SwiftUI-PrayerTimeTests";
+			sourceTree = "<group>";
+		};
+		41250C032B47650F001EA446 /* SwiftUI-PrayerTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41250C042B47650F001EA446 /* SwiftUI_PrayerTimeUITests.swift */,
+				41250C062B47650F001EA446 /* SwiftUI_PrayerTimeUITestsLaunchTests.swift */,
+			);
+			path = "SwiftUI-PrayerTimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41250BE52B47650D001EA446 /* SwiftUI-PrayerTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41250C0A2B47650F001EA446 /* Build configuration list for PBXNativeTarget "SwiftUI-PrayerTime" */;
+			buildPhases = (
+				41250BE22B47650D001EA446 /* Sources */,
+				41250BE32B47650D001EA446 /* Frameworks */,
+				41250BE42B47650D001EA446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-PrayerTime";
+			productName = "SwiftUI-PrayerTime";
+			productReference = 41250BE62B47650D001EA446 /* SwiftUI-PrayerTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41250BF52B47650F001EA446 /* SwiftUI-PrayerTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41250C0D2B47650F001EA446 /* Build configuration list for PBXNativeTarget "SwiftUI-PrayerTimeTests" */;
+			buildPhases = (
+				41250BF22B47650F001EA446 /* Sources */,
+				41250BF32B47650F001EA446 /* Frameworks */,
+				41250BF42B47650F001EA446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41250BF82B47650F001EA446 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-PrayerTimeTests";
+			productName = "SwiftUI-PrayerTimeTests";
+			productReference = 41250BF62B47650F001EA446 /* SwiftUI-PrayerTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41250BFF2B47650F001EA446 /* SwiftUI-PrayerTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41250C102B47650F001EA446 /* Build configuration list for PBXNativeTarget "SwiftUI-PrayerTimeUITests" */;
+			buildPhases = (
+				41250BFC2B47650F001EA446 /* Sources */,
+				41250BFD2B47650F001EA446 /* Frameworks */,
+				41250BFE2B47650F001EA446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41250C022B47650F001EA446 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-PrayerTimeUITests";
+			productName = "SwiftUI-PrayerTimeUITests";
+			productReference = 41250C002B47650F001EA446 /* SwiftUI-PrayerTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41250BDE2B47650D001EA446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					41250BE52B47650D001EA446 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					41250BF52B47650F001EA446 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 41250BE52B47650D001EA446;
+					};
+					41250BFF2B47650F001EA446 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 41250BE52B47650D001EA446;
+					};
+				};
+			};
+			buildConfigurationList = 41250BE12B47650D001EA446 /* Build configuration list for PBXProject "SwiftUI-PrayerTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41250BDD2B47650D001EA446;
+			productRefGroup = 41250BE72B47650D001EA446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41250BE52B47650D001EA446 /* SwiftUI-PrayerTime */,
+				41250BF52B47650F001EA446 /* SwiftUI-PrayerTimeTests */,
+				41250BFF2B47650F001EA446 /* SwiftUI-PrayerTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41250BE42B47650D001EA446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41250BF12B47650F001EA446 /* Preview Assets.xcassets in Resources */,
+				41250BEE2B47650F001EA446 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41250BF42B47650F001EA446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41250BFE2B47650F001EA446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41250BE22B47650D001EA446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41250BEC2B47650D001EA446 /* ContentView.swift in Sources */,
+				41250BEA2B47650D001EA446 /* SwiftUI_PrayerTimeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41250BF22B47650F001EA446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41250BFB2B47650F001EA446 /* SwiftUI_PrayerTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41250BFC2B47650F001EA446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41250C072B47650F001EA446 /* SwiftUI_PrayerTimeUITestsLaunchTests.swift in Sources */,
+				41250C052B47650F001EA446 /* SwiftUI_PrayerTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41250BF82B47650F001EA446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41250BE52B47650D001EA446 /* SwiftUI-PrayerTime */;
+			targetProxy = 41250BF72B47650F001EA446 /* PBXContainerItemProxy */;
+		};
+		41250C022B47650F001EA446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41250BE52B47650D001EA446 /* SwiftUI-PrayerTime */;
+			targetProxy = 41250C012B47650F001EA446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41250C082B47650F001EA446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41250C092B47650F001EA446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41250C0B2B47650F001EA446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-PrayerTime/Preview Content\"";
+				DEVELOPMENT_TEAM = QJ5898R6H8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.SwiftUI-PrayerTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41250C0C2B47650F001EA446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-PrayerTime/Preview Content\"";
+				DEVELOPMENT_TEAM = QJ5898R6H8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.SwiftUI-PrayerTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41250C0E2B47650F001EA446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ5898R6H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.SwiftUI-PrayerTimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-PrayerTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI-PrayerTime";
+			};
+			name = Debug;
+		};
+		41250C0F2B47650F001EA446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ5898R6H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.SwiftUI-PrayerTimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-PrayerTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI-PrayerTime";
+			};
+			name = Release;
+		};
+		41250C112B47650F001EA446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ5898R6H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.SwiftUI-PrayerTimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-PrayerTime";
+			};
+			name = Debug;
+		};
+		41250C122B47650F001EA446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ5898R6H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.SwiftUI-PrayerTimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-PrayerTime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41250BE12B47650D001EA446 /* Build configuration list for PBXProject "SwiftUI-PrayerTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41250C082B47650F001EA446 /* Debug */,
+				41250C092B47650F001EA446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41250C0A2B47650F001EA446 /* Build configuration list for PBXNativeTarget "SwiftUI-PrayerTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41250C0B2B47650F001EA446 /* Debug */,
+				41250C0C2B47650F001EA446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41250C0D2B47650F001EA446 /* Build configuration list for PBXNativeTarget "SwiftUI-PrayerTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41250C0E2B47650F001EA446 /* Debug */,
+				41250C0F2B47650F001EA446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41250C102B47650F001EA446 /* Build configuration list for PBXNativeTarget "SwiftUI-PrayerTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41250C112B47650F001EA446 /* Debug */,
+				41250C122B47650F001EA446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41250BDE2B47650D001EA446 /* Project object */;
+}
